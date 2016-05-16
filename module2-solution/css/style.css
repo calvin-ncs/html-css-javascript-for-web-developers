@@ -8,7 +8,7 @@
   font-family: Helvetica;
 }
 h1 {
-  text-align: center;
+   text-align: center;
    font-size: 175%;  
 }
 
@@ -29,21 +29,16 @@ p{
 padding: 5px 5px 5px 5px;;
 }
 
-
 .box
 {
-  height: 150;	
   border: 1px solid black;	
-  margin: 10px 10px 20px 20px;
+  margin: 20px 10px 20px 10px;
+  height: 150;
   background-color: grey;
   color: black;
   overflow-y: hidden;
 }
 
-/* Simple Responsive Framework. */
-.row {
-  width: 100%;
-}
 
 /********** Large devices only **********/
 @media (min-width: 992px) {
